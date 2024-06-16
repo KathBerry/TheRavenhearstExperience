@@ -1,0 +1,90 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a, .btn {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h2, h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: #4682b4;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5f9ea0;
+}
+
+.button-container, .video-container, .news-article, .game, .member, .blog-article {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #425542;
+    color: #32363a;
+}
+
+header.dark-mode {
+    background-color: #1a1a1a;
+}
+
+.btn.dark-mode {
+    background-color: #685b5b;
+}
+
+.btn.dark-mode:hover {
+    background-color: #777;
+}
+
+.button-container.dark-mode, .video-container.dark-mode, .news-article.dark-mode, .game.dark-mode, .member.dark-mode {
+    background-color: #444;
+    color: #f0f8ff;
+    border-color: #666;
+}
